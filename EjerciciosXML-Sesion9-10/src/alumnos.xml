@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <id>1</id>
+        <nombre>Miriam García</nombre>
+        <edad>18</edad>
+        <nota>4.3</nota>
+    </alumno>
+
+    <alumno>
+        <id>2</id>
+        <nombre>Iván Terroba</nombre>
+        <edad>19</edad>
+        <nota>6.7</nota>
+    </alumno>
+
+    <alumno>
+        <id>3</id>
+        <nombre>Aarón Casañez</nombre>
+        <edad>20</edad>
+        <nota>10</nota>
+    </alumno>
+
+    <alumno>
+        <id>4</id>
+        <nombre>Noelia Noguera</nombre>
+        <edad>20</edad>
+        <nota>8.4</nota>
+    </alumno>
+
+    <alumno>
+        <id>5</id>
+        <nombre>Elena Sanchez</nombre>
+        <edad>49</edad>
+        <nota>7.9</nota>
+    </alumno>
+</alumnos>
