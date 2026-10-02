@@ -1,0 +1,6 @@
+1;Miriam;García;18;4.3
+2;Iván;Terroba;19;6.7
+3;Aarón;Casañez;20;10.0
+4;Noelia;Noguera;20;8.4
+5;Elena;Sanchez;49;7.96
+6;Alguno;Ninguno;89;2

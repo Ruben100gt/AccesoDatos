@@ -1,5 +1,3 @@
-package Practica1;
-
 public class Alumno {
 
     private int id;
