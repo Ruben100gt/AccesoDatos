@@ -1,0 +1,3 @@
+Elegiría el acceso aleatorio.
+
+Al tener tantos registros (500.000) y hacer consultas continuas, el acceso aleatorio es el único que nos permite ir directamente a la posición exacta del dato buscado. Si usáramos el acceso secuencial o XML, el programa tendría que leer los registros uno a uno desde el principio en cada consulta, lo cual sería demasiado lento e ineficiente.
