@@ -1,0 +1,44 @@
+Ejercicio 1: Tipos de datos
+
+    Nombre de una persona: TEXT
+
+    Edad: INTEGER
+
+    Precio de un producto: REAL
+
+    Fotografía: BLOB
+
+    Fecha de devolución que todavía no se ha producido: NULL (porque actualmente no hay valor)
+
+    Código numérico de un libro: INTEGER
+
+
+Ejercicio 2: Restricciones
+
+Explicación de problemas que evita cada restricción:
+
+    PRIMARY KEY: Evita filas repetidas o sin identificar.
+
+    NOT NULL: Evita campos vacíos. Obliga a que la columna siempre tenga un valor.
+
+    UNIQUE: Evita datos duplicados en una misma columna Ej: dos correos iguales.
+
+    DEFAULT: Evita que falte información al insertar, aplicando un valor por defecto automáticamente.   
+
+    CHECK: Evita valores ilógicos o incorrectos, forzando a que cumplan una condición matemática.   
+
+    FOREIGN KEY: Evita registros huérfanos. Vinculando una tabla con otra.
+
+
+Restricción a utilizar en cada caso:
+
+    Evitar dos alumnos con el mismo DNI: UNIQUE.
+
+    Obligar a introducir el nombre: NOT NULL.
+
+    Evitar precios negativos: CHECK(precio >= 0).
+
+    Relacionar un libro con su autor: FOREIGN KEY.
+
+    Generar automáticamente un stock inicial de cero: DEFAULT 0.
+

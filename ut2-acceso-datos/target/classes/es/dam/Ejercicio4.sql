@@ -1,0 +1,5 @@
+-- Ejercicio 4: ALTER TABLE
+
+ALTER TABLE alumno ADD COLUMN apellidos TEXT;
+ALTER TABLE alumno ADD COLUMN email TEXT;
+ALTER TABLE alumno ADD COLUMN curso TEXT;
